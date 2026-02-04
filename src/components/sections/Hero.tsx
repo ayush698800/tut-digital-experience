@@ -39,8 +39,8 @@ export default function Hero() {
         className="relative z-10 text-center px-4"
       >
         <motion.span
-          initial={{ opacity: 0, tracking: "0.1em" }}
-          animate={{ opacity: 1, tracking: "0.5em" }}
+          initial={{ opacity: 0, letterSpacing: "0.1em" }}
+          animate={{ opacity: 1, letterSpacing: "0.5em" }}
           transition={{ duration: 2, ease: "easeOut" }}
           className="text-[#D4AF37] font-mono text-xs md:text-sm uppercase mb-4 block"
         >
