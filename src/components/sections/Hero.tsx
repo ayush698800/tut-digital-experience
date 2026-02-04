@@ -21,8 +21,6 @@ export default function Hero() {
           transition={{ duration: 3, ease: "easeOut" }}
           className="w-full h-full"
         >
-          {/* Use your tut1.mp4 here as a background loop if it looks atmospheric, 
-              otherwise a high-res image of the valley works best */}
           <img 
             src="/footer.jpg" 
             alt="Ancient Egypt" 
@@ -88,7 +86,7 @@ export default function Hero() {
         />
       </motion.div>
 
-      {/* Ambient Dust Particles (Visual Polish) */}
+      {/* Ambient Dust Particles */}
       <div className="absolute inset-0 pointer-events-none opacity-20">
         <div className="absolute inset-0 bg-[url('https://www.transparenttextures.com/patterns/stardust.png')]" />
       </div>
